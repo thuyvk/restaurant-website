@@ -1,8 +1,15 @@
 import Layout from "../Layout";
+import SliderImage from "./SliderImage";
+import AboutRestaurant from "./AboutRestaurant";
+import { Container } from 'react-bootstrap'
+
 const Home = () => {
     return (
         <Layout>
-            <h1>Hello home</h1>
+            <SliderImage />
+            <Container>
+                <AboutRestaurant />
+            </Container>
         </Layout>
 
     )

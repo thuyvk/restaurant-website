@@ -1,5 +1,6 @@
 
 import type { ReactNode } from 'react';
+import { Container } from 'react-bootstrap';
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
@@ -14,15 +15,8 @@ export type Props = {
 const Layout = ({ children }: Props) => {
     return (
         <>
-            <div style={{ backgroundColor: 'hotpink' }}>
-                <div className='container'>
-                    <HeaderMenu />
-                </div>
-            </div>
-
-            <div className='container'>
-                {children}
-            </div>
+            <HeaderMenu />
+            {children}
         </>
     )
 }

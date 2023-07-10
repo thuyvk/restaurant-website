@@ -1,0 +1,12 @@
+.bg-body-restaurant {
+    background-color: navy;
+}
+
+.bg-body-restaurant a {
+    color: #f8f8f8
+}
+
+.bg-body-restaurant a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
